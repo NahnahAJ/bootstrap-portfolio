@@ -5,15 +5,23 @@ ul {
   }
 }
 
+.rounded-botton {
+    border-bottom-left-radius: 6rem!important;
+}
+
 .d-flex {
   gap: 10px;
 }
 
-.mt-lg-5 {
-  margin-top: 8rem;
+.m-lg-5 {
+  margin-top: 8rem!important;
 }
 
 .bg-secondary {
-  background-color: #e5e5e5;
+  background-color: #e5e5e5!important;
+}
+
+.bg-light {
+  background-color: #fff!important;
 }
 
