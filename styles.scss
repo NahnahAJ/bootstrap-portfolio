@@ -1,23 +1,23 @@
 body {
-  font-family: "poppins", sans-serif;
+  font-family: 'poppins', sans-serif;
 }
 
 .bio-container {
   width: 100%;
   height: 592px;
-  border-bottom-left-radius: 6em !important;
+  border-bottom-left-radius: 6em!important;
   background-image: url(./images/bg-desktop-pg1.svg);
 }
 
 ul {
   padding-left: 0;
-}
-ul li {
-  list-style-type: none;
+  li {
+    list-style-type: none;
+  }
 }
 
 .rounded-botton {
-  border-bottom-left-radius: 6rem !important;
+    border-bottom-left-radius: 6rem!important;
 }
 
 .d-flex {
@@ -25,23 +25,22 @@ ul li {
 }
 
 .justify-content-between {
-  margin-right: 5em !important;
+  margin-right: 5em!important;
 }
 
 .m-lg-5 {
-  margin-top: 8rem !important;
+  margin-top: 8rem!important;
 }
 
 .pt-5 {
-  padding-top: 5em !important;
+  padding-top: 5em!important;
 }
-
 .py-5 {
-  margin-top: 5em !important;
+  margin-top: 5em!important;
 }
 
 .bg-secondary {
-  background-color: #e5e5e5 !important;
+  background-color: #e5e5e5!important;
 }
 
 .language-items {
@@ -52,7 +51,7 @@ ul li {
 }
 
 .bg-light {
-  background-color: #fff !important;
+  background-color: #fff!important;
 }
 
 .about-myself {
@@ -60,4 +59,4 @@ ul li {
   height: 100vh;
 }
 
-/*# sourceMappingURL=styles.css.map */
+
