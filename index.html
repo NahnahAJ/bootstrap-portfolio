@@ -137,7 +137,7 @@
  <!-- Here begins the about self  -->
 
  <section>
-  <div class="container bg-light about-myself">
+  <div class="container-fluid bg-light about-myself">
       <div class="row">
         <div class="col pt-5">
           <h1>About <br>Myself</h1>
@@ -177,8 +177,33 @@
       </div>
   </div>
  </section>
- 
 
+ <!-- Here is the contact form -->
+ <section class="bg-image" style="background-image: url(./images/Backgound-footer.svg);
+ height: 100vh">
+<div class="container w-50 text-white pt-5">
+   <h2 class="d-flex justify-content-center">Contact me</h2>
+    <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding.
+       I'd love to help with it </p>
+</div>
+<form>
+ <div class="container w-50">
+  <div class="mb-3">
+    <label for="name" class="form-label"></label>
+    <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label"></label>
+    <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label"></label>
+    <textarea class="form-control" id="message" rows="7" placeholder="Write your message here" required></textarea>
+  </div>
+  <div class="d-flex justify-content-center"><button type="submit" class="btn btn-outline-light">Get in touch</button></div>
+ </div>
+</form>
+ </section>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
