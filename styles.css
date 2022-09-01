@@ -1,3 +1,14 @@
+body {
+  font-family: "poppins", sans-serif;
+}
+
+.bio-container {
+  width: 100%;
+  height: 592px;
+  border-bottom-left-radius: 6em !important;
+  background-image: url(./images/bg-desktop-pg1.svg);
+}
+
 ul {
   padding-left: 0;
 }
@@ -13,16 +24,40 @@ ul li {
   gap: 10px;
 }
 
+.justify-content-between {
+  margin-right: 3em !important;
+}
+
 .m-lg-5 {
   margin-top: 8rem !important;
+}
+
+.pt-5 {
+  padding-top: 5em !important;
+}
+
+.py-5 {
+  margin-top: 5em !important;
 }
 
 .bg-secondary {
   background-color: #e5e5e5 !important;
 }
 
+.language-items {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 300px;
+  gap: 20px;
+}
+
 .bg-light {
   background-color: #fff !important;
+}
+
+.about-myself {
+  border-top-right-radius: 100px;
+  height: 552px;
 }
 
 /*# sourceMappingURL=styles.css.map */
